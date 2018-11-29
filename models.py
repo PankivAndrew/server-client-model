@@ -46,6 +46,6 @@ class Client(object):
     def send(self):
         self.data['timestamp'] = int(time.time() * 1000)
         self.socket.sendall(json.dumps(self.data).encode())
-        print('Receive form server: {}'.format(self.socket.recv(1024)))
+        print('Receive form server: {}'.format(self.socket.recv(1024).decode()))
         print()
 
