@@ -8,7 +8,7 @@ Simple socket-based server-client model
 
 Clone repo
 ```bash
-git clone 
+git clone https://github.com/PankivAndrew/server-client-model.git
 ```
 
 Go to project folder
